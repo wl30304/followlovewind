@@ -1,0 +1,651 @@
+@charset "utf-8";
+body {
+	font-family : "微軟正黑體";
+	background-color :#FAFBFD;
+
+}
+
+div#header{
+	width: 100%;
+	height: 100%;
+	background-color: #022B3E;
+	color: black;
+	text-align: center;
+	
+}
+
+ul#menu	{
+	padding: 20px;
+	text-align: center;
+}
+
+ul#menu li{
+	display: inline;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: white;
+}
+
+ul#menu li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+ul#menu li a:hover{
+	background-color: #033954;
+}
+
+h2.my{
+	text-align : center;
+	color :#;
+	font-family : "微軟正黑體";
+	font-size : 300%;
+	line-height: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight:bold;
+
+}
+h2.act{
+	text-align : center;
+	color :#FFFFFF;
+	font-family : "微軟正黑體";
+	font-size : 150%;
+	line-height: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight:bold;
+
+}
+h2.ph{
+	text-align : center;
+	color :#;
+	font-family : "微軟正黑體";
+	font-size : 200%;
+	line-height: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight:bold;
+
+}
+h2.pho{
+    text-align : center;
+    color :#;
+    font-family : "微軟正黑體";
+    font-size : 200%;
+    line-height: 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight:bold;
+
+}
+h3{
+	text-align : center;
+	color :#;
+	font-family : "微軟正黑體";
+	font-size : 150%;
+	line-height: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight:bold;
+}
+
+
+p{
+	font-family :微軟正黑體;
+	font-size:16px;
+	letter-spacing: px;
+	line-height: 24px;
+	color :#;
+}
+
+footer{
+	color: white;
+	background-color: #022B3E;
+	font-size: 25px;
+}
+
+
+.box1{
+	background-image: url( 'img/bg.jpg ' );
+	background-size: cover;
+	margin:;
+	font-size: 12px;
+	line-height: 2em;
+	padding-top: 20px;
+	padding-right: 200px;
+	padding-bottom: 40px;
+	padding-left: 200px;
+}
+
+
+.sec1{
+	font-size: 25px;
+	text-align: left;
+}
+.sec2{
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 25px;
+    line-height: 165%;
+	text-align: left;
+	columns: 2;
+	border-radius: 20px;
+}
+.sec3{
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 25px;
+    line-height: 165%;
+	text-align: left;
+	}
+.sec4{
+
+	border-radius: 20px;
+	background-color: gray;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 25px;
+    line-height: 165%;
+	text-align: left;
+	}
+img.act{border-radius: 50px;}
+nav::after {
+    visibility: hidden;
+}
+button.mys { 
+    background-color:#FF8800;
+    border-radius:80%; 
+    width:200px;height:200px     
+    font-size：40px; 
+}
+
+/*個人資料*/
+.insidetitleoa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto auto 0 auto;
+    text-align: center;
+    height: 215px;
+}
+
+.portraitoa {
+    
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid green 2px;
+    margin: 20px 5% 20px 5%;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition: 0.5s;
+}
+
+/*the text of the tooltip*/
+.tooltiptextoa {
+    opacity: 0;
+    z-index: 1;
+    width: 120px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 183px;
+    margin-left: -65px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: opacity 0.5s;
+}
+
+/*the arrow above the tooltip */
+.tooltiptextoa::after {
+    content: "";
+    border: 6px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    bottom: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*hover over the round picture to show the tooltip*/
+.portraitoa:hover {
+    width: 150px;
+    height: 150px;
+}
+
+/*zoom effect on hover over the reound picture*/
+.portraitoa:hover .tooltiptextoa {
+    top: 85%;
+    opacity: 1;
+}
+
+/*introduction section*/
+.peopleoa {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    color: white;
+}
+
+/*self introduction of all person*/
+.pictxtoa div {
+    display: flex;
+    font-size: 23px;
+    color: white;
+    width: 40%;
+    text-align: justify;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    letter-spacing: 5px;
+}
+
+.pictxtoa {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1% auto 5% auto;
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+}
+
+#m9 {background-image: url(img/my.jpg);}
+#m10 {background-image: url(img/SCH.jpg);}
+#m11 {background-image: url(img/WORK.jpg);}
+#m12 {background-image: url(img/HOPE.jpg);}
+#m13 {background-image: url(img/NEW.JPG);}
+/*photo of each person*/
+
+
+
+.peopleoa .mboa {
+    width: 640px;
+    height: 360px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/*self introduction of each person*/
+#pf10,#pf11,#pf12,#pf13 {
+    display: none;
+}
+#p9 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/1.png);
+}
+
+#p10 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/2.png);
+}
+#p11{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/3.png);
+}
+#p12 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/4.png);
+}
+#p13 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/5.png);
+}
+
+
+
+/*個人資料*/
+/*社團及活動紀錄*/
+.insidetitleo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto auto 0 auto;
+    text-align: center;
+    height: 215px;
+}
+
+.portraito {
+    display: inline-block;
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid green 2px;
+    margin: 20px 5% 20px 5%;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition: 0.5s;
+}
+
+/*the text of the tooltip*/
+.tooltiptexto {
+    opacity: 0;
+    z-index: 1;
+    width: 120px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 183px;
+    margin-left: -65px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: opacity 0.5s;
+}
+
+/*the arrow above the tooltip */
+.tooltiptexto::after {
+    content: "";
+    border: 6px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    bottom: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*hover over the round picture to show the tooltip*/
+.portraito:hover {
+    width: 150px;
+    height: 150px;
+}
+
+/*zoom effect on hover over the reound picture*/
+.portraito:hover .tooltiptexto {
+    top: 85%;
+    opacity: 1;
+}
+
+/*introduction section*/
+.peopleo {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    color: white;
+}
+
+/*self introduction of all person*/
+.pictxto div {
+    display: flex;
+    font-size: 23px;
+    color: white;
+    width: 40%;
+    text-align: justify;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    letter-spacing: 5px;
+}
+
+.pictxto {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1% auto 5% auto;
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+}
+
+/*photo of each person*/
+#m6 {background-image: url(img/720.jpg);}
+#m7 {background-image: url(img/319.jpg);}
+#m8 {background-image: url(img/CYIM.jpg);}
+#m3 {background-image: url(img/PHG.jpg);}
+#m4 {background-image: url(img/VC.jpg);}
+#m5 {background-image: url(img/race.jpg);}
+
+.peopleo .mbo {
+    width: 640px;
+    height: 360px;
+    background-size: cover;
+    margin: auto 50px auto auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/*self introduction of each person*/
+#pf4,#pf5,#pf6,#pf7,#pf8 {
+    display: none;
+}
+#p6 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(img/720h.jpg);
+}
+
+#p7 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/319h.jpg);
+}
+
+#p8 {
+    background-size: cover;
+    background-position: top center;
+    background-image: url(img/CYIMh.jpg);
+}
+#p3 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/PHGh.jpg);
+}
+
+#p4 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/VCh.jpg);
+}
+
+#p5 {
+    background-size: cover;
+    background-position: top center;
+    background-image: url(img/raceh.jpg);
+}
+/*社團及活動紀錄*/
+
+
+/*攝影作品*/
+.insidetitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto auto 0 auto;
+    text-align: center;
+    height: 215px;
+}
+
+.portrait {
+    display: inline-block;
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid green 2px;
+    margin: 20px 5% 20px 5%;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition: 0.5s;
+}
+
+/*the text of the tooltip*/
+.tooltiptext {
+    opacity: 0;
+    z-index: 1;
+    width: 120px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 183px;
+    margin-left: -65px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: opacity 0.5s;
+}
+
+/*the arrow above the tooltip */
+.tooltiptext::after {
+    content: "";
+    border: 6px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    bottom: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*hover over the round picture to show the tooltip*/
+.portrait:hover {
+    width: 150px;
+    height: 150px;
+}
+
+/*zoom effect on hover over the reound picture*/
+.portrait:hover .tooltiptext {
+    top: 85%;
+    opacity: 1;
+}
+
+/*introduction section*/
+.people {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    color: white;
+}
+
+/*self introduction of all person*/
+.pictxt div {
+    display: flex;
+    font-size: 23px;
+    color: white;
+    width: 40%;
+    text-align: justify;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    letter-spacing: 5px;
+}
+
+.pictxt {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1% auto 5% auto;
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+}
+
+/*photo of each person*/
+#m0 {background-image: url(img/sky.jpg);}
+#m1 {background-image: url(img/sun.jpg);}
+#m2 {background-image: url(img/bird.jpg);}
+
+.people .mb {
+    width: 640px;
+    height: 360px;
+    background-size: cover;
+    margin: auto 50px auto auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/*self introduction of each person*/
+#pf1,#pf2 {
+    display: none;
+}
+#p0 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(img/sky.jpg);
+}
+
+#p1 {
+    background-size: cover;
+    background-position: left center;
+    background-image: url(img/sun.jpg);
+}
+
+#p2 {
+    background-size: cover;
+    background-position: top center;
+    background-image: url(img/bird.jpg);
+}
+/*攝影作品*/
+
+
+
+*{margin:0;padding:0;list-style-type:none;}
+
+a,img{border:0;}
+
+body{font:12px/180% Arial, Helvetica, sans-serif, "微軟正黑體"; text-align:center}
+
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+
+#n a{
+	padding: 0 4px;
+	color: #6CF
+}
+
+/* flexslider */
+.flexslider{position:relative;height:400px;overflow:hidden;background:url(/image/loading2.gif) 50% no-repeat;background-image: url( 'img/bg2.jpg ' );
+	background-size: cover;}
+.slides{position:relative;z-index:1;}
+.slides li{height:400px;}
+.slides li a{ display:block; width:100%; height:100%; text-align:left; text-indent:-9999px}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:05px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(img/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+
+.flex-direction-nav{position:absolute;z-index:3; left:0;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:60px;background:url(img/prev3.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:60px;background:url(img/next3.png) center center no-repeat;}
