@@ -1,0 +1,27 @@
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+h2{
+	color: red;
+	font-weight:bold;
+}
+.left{
+
+	width: 80%;
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	font-size: 18px;
+}
+.left2{
+	float: left;
+	width: 50%;
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	font-size: 18px;
+}
+.map{
+ margin-left: 15%;
+}
