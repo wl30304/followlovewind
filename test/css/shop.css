@@ -42,8 +42,6 @@
 .products_box {
 	margin: 2% ;
 	padding: 0;
-	width: 20.7%;
-	float:left;
 	}
 
 /*以下購物車區*/
@@ -103,7 +101,7 @@
 
 /*頁碼*/
 .page-icon{
-	margin:5px 3% 1% 0%;/*設定距離頂部20畫素*/
+	margin:1% 0% 1% 0%;/*設定距離頂部20畫素*/
 	font-size:0;/*修復行內元素之間空隙間隔*/
 	text-align:center;/*設定內容居中顯示*/
 	}
