@@ -1,0 +1,176 @@
+
+
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+
+
+/*以下是商品區*/
+#right2 {
+	float:left;
+	margin:3% 1.5%;
+	width: 82%;
+	}
+#products {
+	padding: 0px;
+	font-size:130%;
+	text-align: center;
+	width:89.8%;
+	}
+.products_title h2{
+	font-size: 300%;
+	font-weight: normal;
+	line-height: 1em;
+	margin:0;
+	padding: 0.5% 0 0 45%;
+	}
+.products_title {
+	margin-left: -35%;
+	color: #000000;
+	height: 5%;
+	width:90%;
+	padding: 0;
+	}
+
+/*以下商品說明區*/
+.show{
+	float: left;
+	clear: both;
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.spec h2{
+	color: red;
+}
+.thing{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.spec{
+	font-size: 25px;
+	width: 50%;
+	margin-right: 0%;
+	margin-top: 3%;
+	text-align: left;
+	float: right;
+
+}
+.but{
+	border:0;
+	background-color:#5ca0d3;
+	padding: 10px;
+	color: yellow;
+	border-radius:10px;
+	font-size: 20px;
+	font-weight:bold;
+}
+/*以上商品說明區*/
+
+/*以下商品規格區*/
+.thing3{
+	text-align: left;
+	float: right;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.thing4{
+	text-align: left;
+	margin-left: 1%;
+	margin-top: 5%;
+	width: 100%;
+}
+.show1{
+	color: red;
+}
+.show2{
+	background-color: yellow;
+	color: red;
+}
+/*以上商品規格區*/
+
+
+/*以下評論區*/
+.Tboard {
+	border-collapse:collapse;
+	width: 100%;
+	margin-top: 5%;
+	width: 100%;
+	border: 1px solid #000000;
+	list-style-type:none;	
+	text-align: left;
+	padding: 1% 0% 0% 0%;
+}
+.comment{
+	border: 1px solid #000000;
+}
+/*以上評論區*/
+
+/*以下購物車區*/
+#right1 {
+	margin-top: 3%;
+	float:right; 
+	width: 15%;
+	}	
+#products0 {
+	border: 1px solid #04b2a0;
+	border-bottom: 6px solid #04b2a0;
+	padding: 1% 3% 0% 8%;
+	font-size:12px;
+	}
+.products_title2 h2{
+	font-size: 200%;
+	font-weight: normal;
+	line-height: 1em;
+	margin:0px;
+	float:left;
+	padding: 0% 0% 0% 28%;
+	background-color: #00AA88;
+	}
+.products_title2 {
+	background-color: #00AA88;
+	color: yellow;		
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	float: left;
+	width:100%;
+	}
+.cart{
+	margin:  0% 0% 10% 0%;
+	}
+.cart a{
+	font: bold 150% "微软雅黑";
+	color: gray;
+	margin: 0% 19%;
+	border: 1px solid #CCCCCC;
+	padding: 1.5%;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	}
+.cart i{
+	font: bold 100% "微软雅黑";
+	color: red;
+	}
+.undercart{
+	padding: 20% 0%;
+	}
+.undercart2{
+	padding: 10% 0%;
+
+	}
+/*以上購物車區*/
+table{
+	width: 80%;
+	border: 1px solid #000000;
+}
+tr{
+	border: 1px solid #000000;
+}
+td{
+	border: 1px solid #000000;
+}

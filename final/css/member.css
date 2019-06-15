@@ -1,0 +1,23 @@
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+/*以下評論區*/
+.member{
+	margin: 5%;
+	font-size: 20px;
+	border-collapse:collapse;
+	width: 70%;
+	border: 1px solid #000000;}
+.hmember{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+tr  td{
+	border-collapse:collapse;
+	padding: 5px;
+	border: 1px solid #000000;}
+}
+
+/*以上評論區*/

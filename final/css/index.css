@@ -1,0 +1,165 @@
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+/*以下news區*/
+#left2 {
+	float:left;
+	margin:3% 1.5%;
+	width: 105%;
+	}
+#news {
+
+	padding: 0px;
+	width:90%;
+	}
+/*以上news區*/	
+
+/*以下是商品區*/
+#right2 {
+	float:left;
+	margin:3% 0%;
+	width: 82%;
+	}
+#products {
+	border: 1px solid #04b2a0;
+	border-bottom: 8px solid #04b2a0;
+	padding: 0px;
+	font-size:130%;
+	text-align: center;
+	width:89.8%;
+	}
+.products_title h2{
+	font-size: 150%;
+	font-weight: normal;
+	line-height: 1em;
+	margin:0;
+	padding: 0.5% 0 0 3%;
+	}
+.products_title {
+	background-color: #04b2a0;
+	color: yellow;
+	height: 5%;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	width:90%;
+	padding: 0;
+	}
+.border{
+	border: 0px solid #04b2a0;
+}
+.products_box {
+	margin: 2% ;
+	padding: 0;
+	}
+
+/*以下購物車區*/
+#right1 {
+	margin:3% 0%;
+	float:right; 
+	width: 15%;
+	}	
+#products0 {
+	border: 1px solid #04b2a0;
+	border-bottom: 6px solid #04b2a0;
+	padding: 1% 3% 0% 8%;
+	font-size:12px;
+	}
+.products_title2 h2{
+	font-size: 200%;
+	font-weight: normal;
+	line-height: 1em;
+	margin:0px;
+	float:left;
+	padding: 0% 0% 0% 28%;
+	background-color: #00AA88;
+	}
+.products_title2 {
+	background-color: #00AA88;
+	color: yellow;		
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	float: left;
+	width:100%;
+	}
+.cart{
+	margin:  0% 0% 10% 0%;
+	}
+.cart a{
+	font: bold 140% "微软雅黑";
+	color: gray;
+	margin: 0% 19%;
+	border: 1px solid #CCCCCC;
+	padding: 1.5%;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	}
+.undercart{
+	padding: 10% 0%;
+	}
+.undercart2{
+	padding: 3% 0%;
+	}
+/*以上購物車區*/
+
+/*頁碼*/
+.page-icon{
+	margin:1% 0% 1% 0%;/*設定距離頂部20畫素*/
+	font-size:0;/*修復行內元素之間空隙間隔*/
+	text-align:center;/*設定內容居中顯示*/
+	}
+/*設定共有的的樣式佈局，主要是進行程式碼優化，提高執行效率*/
+.page-icon a,.page-disabled,.page-next{
+	border:1px solid #ccc;
+	border-radius:3px;
+	padding:4px 10px 5px;
+	font-size:14PX;/*修復行內元素之間空隙間隔*/
+	margin-right:10px;
+	}
+/*對 a 標籤進行樣式佈局 */
+.page-icon a{
+	text-decoration:none;/*取消連結的下劃線*/
+	color:#005aa0;
+	}
+.page-current{
+	color:#ff6600;
+	padding:4px 10px 5px;
+	font-size:14PX;/*修復行內元素之間空隙間隔*/
+	}
+.page-disabled{
+	color:#ccc;
+	}
+.page-next i,.page-disabled i{
+	cursor:pointer;/*設定滑鼠經過時的顯示狀態，這裡設定的是顯示狀態為小手狀態*/
+	display:inline-block;/*設定顯示的方式為行內塊元素*/
+	width:5px;
+	height:9px;
+	background-image:url(http://img.mukewang.com/547fdbc60001bab900880700.gif);/*獲取圖示的背景連結*/
+	}
+.page-disabled i{
+	background-position:-80px -608px;
+	margin-right:3px;
+	}
+.page-next i{
+	background-position:-62px -608px;
+	margin-left:3px;
+	}
+/*頁碼*/
+
+/* flexslider */
+.flexslider{position:relative;height:400px;overflow:hidden;background:url(/image/loading2.gif) 50% no-repeat;background-image: url('img/bg2.jpg');
+	background-size: cover;}
+.slides{position:relative;z-index:1;}
+.slides li{height:400px;}
+.slides li a{ display:block; width:100%; height:100%; text-align:left; text-indent:-9999px}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:05px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(img/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+
+.flex-direction-nav{position:absolute;z-index:3; left:0;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:60px;background:url(img/prev3.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:60px;background:url(img/next3.png) center center no-repeat;}
