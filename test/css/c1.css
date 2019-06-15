@@ -1,0 +1,61 @@
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+.vertical-menu {
+  margin-top: 0%;
+  float: left;
+  width: 15%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #7B88FF; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #82acff; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.left{
+  margin-left: 30%;
+}
+h2{
+  color: red;
+  font-weight:bold;
+}
+.but{
+  border:0;
+  background-color:#5ca0d3;
+  padding: 10px;
+  color: yellow;
+  border-radius:10px;
+  font-size: 20px;
+  font-weight:bold;
+}
+.bottom{
+  margin-bottom: 5%;
+}
+table{
+  margin-bottom: 3%;
+  border-collapse:collapse;
+  width: 70%;
+  border: 1px solid #000000;
+}
+tr{
+    padding: 10px;
+  border-collapse:collapse;
+  border: 1px solid #000000;
+}
+td{
+    padding: 10px;
+  border-collapse:collapse;
+  border: 1px solid #000000;
+}

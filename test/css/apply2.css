@@ -1,0 +1,24 @@
+/* 以下是主要內容區css*/
+#content {
+	background-color:#CCEEFF;height:100%;width:100%;float:left;
+	}
+.vertical-menu {
+  width: 15%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #7B88FF; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #82acff; /* Add a green color to the "active/current" link */
+  color: white;
+}

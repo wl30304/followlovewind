@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link href="css/apply.css" type="text/css" rel="stylesheet" />
+	<link href="css/board2.css" type="text/css" rel="stylesheet" />
 	<link href="css/all.css" type="text/css" rel="stylesheet" />
 	<link rel="Shortcut Icon" type="image/x-icon" href="img/g.jpg" />
 	<script src="js/captcha.js" type="text/javascript" charset="utf-8"></script>
@@ -30,6 +30,7 @@
 </div>
 
 <div>
+
 	<span class="search">
 	<marquee scrollamount="8">訂單量稍多，出貨會延遲一兩天，請耐心等候~詐騙電話勿信。詐騙電話勿信。詐騙電話勿信。三天內沒到貨，或者是出貨通知，請留言板跟我們聯繫。超商取貨的忘了填寫資料的請記得要留言喔，全館商品九折優惠。</marquee>
 	</span>
@@ -126,31 +127,26 @@
 </div>
 <div id="content">
 <div class="customer">
-	<div class="right">
-		<img src="img/le.jpg" width="50%">
-	</div>
-	<div class="left">
-		<h2>會員申請說明：</h2>
-		<p>我們以此email跟您聯絡，您做相關查詢也是以此email及密碼為依據，請務必填寫您最常使用的email帳號，謝謝 !</p>
-		<hr>
-		<form  method="post">
-		<table>
-			<tr>
-				<td>E-mail：</td>
-				<td><input id="email" type="email"  required></td>
+	<table class="Tboard">
+			<tr class="Bhead"><td colspan="2"class="comment">
+			<h2>給予評價</h2></td></tr>
+			<tr class="Bmid">
+				<th class="comment">購買產品</th>
+				<th class="comment">小窩</th>
 			</tr>
 			<tr>
-				<td>密碼：</td>
-				<td><input type="text" name="PSW1" required></td>
+				<th class="comment">評分</th>
+				<th class="comment"> <input type="radio" name="grade" value="★★★★★"/>★★★★★ <input type="radio" name="grade" value="★★★★" />★★★★ <input type="radio" name="grade" value="	★★★" />★★★ <input type="radio" name="grade" value="	★★" /> ★★<input type="radio" name="grade" value="	★" />★</th>
 			</tr>
 			<tr>
-				<td>再次確認密碼：</td>
-				<td><input type="text" name="PSW2" required ></td>
+				<th class="comment">評論</th>
+				<th class="comment"><textarea name="comment" rows="2" cols="20"></textarea></th>
 			</tr>
-			</table>
-　			<input type="submit" value="送出" class="but">
-		</form>
-	</div>
+			<tr>
+				<th class="comment" colspan="2"><button class="but">送出</button></th>
+			</tr>
+	</table>
+
 </div>
 
 </div>
