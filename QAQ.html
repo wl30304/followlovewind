@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>記分板</title>
+</head>
+<body>
+	<table style="border:3px #cccccc solid;" cellpadding="10" border='1'>
+		<tr>
+			<td>
+				<table style="border:1px #000000 solid;"  border='1' cellpadding="10" >
+					<tr>
+						<td  align='center' valign="middle">第一組</td>
+						<td  align='center' valign="middle">分數</td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c11" onclick="sum11()">-1</button></td>
+						<td  align='center' valign="middle"><button id ="c12" onclick="sum12()">+1</button></td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c121" onclick="sum121()">-5</button></td>
+						<td  align='center' valign="middle"><button id ="c122" onclick="sum122()">+5</button></td>
+						<td align="center" valign=" middle" id ="show1"></td>
+					</tr>
+				</table>	
+			</td>
+			<td>
+				<table style="border:1px #000000 solid;"  border='1' cellpadding="10" >
+					<tr>
+						<td  align='center' valign="middle">第二組</td>
+						<td  align='center' valign="middle">分數</td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c21" onclick="sum21()">-1</button></td>
+						<td  align='center' valign="middle"><button id="c22" onclick="sum22()">+1</button></td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle" id="c211" onclick="sum211()"><button>-5</button></td>
+						<td  align='center' valign="middle" id="c222" onclick="sum222()"><button>+5</button></td>
+						<td align="center" valign=" middle" id ="show2"></td>
+					</tr>
+				</table>	
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table style="border:1px #000000 solid;"  border='1' cellpadding="10" >
+					<tr>
+						<td  align='center' valign="middle">第三組</td>
+						<td  align='center' valign="middle">分數</td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c31" onclick="sum31()">-1</button></td>
+						<td  align='center' valign="middle"><button id="c32" onclick="sum32()">+1</button></td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c311" onclick="sum311()">-5</button></td>
+						<td  align='center' valign="middle"><button id="c322" onclick="sum322()">+5</button></td>
+						<td align="center" valign=" middle" id ="show3"></td>
+					</tr>
+				</table>	
+			</td>
+			<td>
+				<table style="border:1px #000000 solid;"  border='1' cellpadding="10" >
+					<tr>
+						<td  align='center' valign="middle">第四組</td>
+						<td  align='center' valign="middle">分數</td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c41" onclick="sum41()">-1</button></td>
+						<td  align='center' valign="middle"><button id="c42" onclick="sum42()">+1</button></td>
+					</tr>
+					<tr>
+						<td  align='center' valign="middle"><button id="c411" onclick="sum411()">-5</button></td>
+						<td  align='center' valign="middle"><button id="c422" onclick="sum422()">+5</button></td>
+						<td align="center" valign=" middle" id ="show4"></td>
+					</tr>
+				</table>	
+			</td>
+		</tr>
+	</table>
+
+	<script type="text/javascript" charset="utf-8">
+	   sum1 = 0;
+	   sum2 = 0;
+	   sum3 = 0;
+	   sum4 = 0;
+	   function sum11(){
+	     sum1 = sum1-1; 
+	   	 document.getElementById('show1').innerHTML = sum1;
+	   	}
+
+	   function sum12(){
+	    sum1 = sum1 + 1; 
+	   	document.getElementById('show1').innerHTML = sum1;
+	   	}
+
+       function sum121(){
+	     sum1 = sum1-5; 
+	   	 document.getElementById('show1').innerHTML = sum1;
+	   	}
+
+	  function sum122(){
+	    sum1 = sum1 + 5; 
+	   	document.getElementById('show1').innerHTML = sum1;
+	   	}
+       // one-----------------------------------------------
+
+        function sum21(){
+	     sum2 = sum2-1; 
+	   	 document.getElementById('show2').innerHTML = sum2;
+	   	}
+
+	   function sum22(){
+	    sum2 = sum2 + 1; 
+	   	document.getElementById('show2').innerHTML = sum2;
+	   	}
+
+       function sum211(){
+	     sum2 = sum2-5; 
+	   	 document.getElementById('show2').innerHTML = sum2;
+	   	}
+
+	  function sum222(){
+	    sum2 = sum2 + 5; 
+	   	document.getElementById('show2').innerHTML = sum2;
+	   	}
+	   	//two------------------------------------------------
+
+
+        function sum31(){
+	     sum3 = sum3-1; 
+	   	 document.getElementById('show3').innerHTML = sum3;
+	   	}
+
+	   function sum32(){
+	    sum3 = sum3 + 1; 
+	   	document.getElementById('show3').innerHTML = sum3;
+	   	}
+
+       function sum311(){
+	     sum3 = sum3-5; 
+	   	 document.getElementById('show3').innerHTML = sum3;
+	   	}
+
+	  function sum322(){
+	    sum3 = sum3 + 5; 
+	   	document.getElementById('show3').innerHTML = sum3;
+	   	}
+// three----------------------------------------------------
+
+      function sum41(){
+	     sum4 = sum4-1; 
+	   	 document.getElementById('show4').innerHTML = sum4;
+	   	}
+
+	   function sum42(){
+	    sum4 = sum4 + 1; 
+	   	document.getElementById('show4').innerHTML = sum4;
+	   	}
+
+       function sum411(){
+	     sum4 = sum4-5; 
+	   	 document.getElementById('show4').innerHTML = sum4;
+	   	}
+
+	  function sum422(){
+	    sum4 = sum4 + 5; 
+	   	document.getElementById('show4').innerHTML = sum4;
+	   	}
+
+	</script>
+</body>
+</html>
